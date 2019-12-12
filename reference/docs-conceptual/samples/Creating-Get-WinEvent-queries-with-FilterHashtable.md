@@ -54,14 +54,14 @@ Get-WinEvent -FilterHashtable @{
 | -------------- | --------------- | ---------------------------- |
 | LogName        | `<String[]>`    | Да                          |
 | ProviderName   | `<String[]>`    | Да                          |
-| путь           | `<String[]>`    | Нет                           |
+| Path           | `<String[]>`    | Нет                           |
 | Keywords       | `<Long[]>`      | Нет                           |
-| Код             | `<Int32[]>`     | Нет                           |
-| Уровень          | `<Int32[]>`     | Нет                           |
+| Key             | `<Int32[]>`     | Нет                           |
+| Level          | `<Int32[]>`     | Нет                           |
 | StartTime      | `<DateTime>`    | Нет                           |
 | EndTime        | `<DateTime>`    | Нет                           |
 | UserID         | `<SID>`         | Нет                           |
-| Данные           | `<String[]>`    | Нет                           |
+| Data           | `<String[]>`    | Нет                           |
 | `<named-data>` | `<String[]>`    | Нет                           |
 
 Ключ `<named-data>` представляет именованное поле данных событий. Например, событие Perflib 1008 может содержать следующие данные о событии:
